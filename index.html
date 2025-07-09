@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/style.css" />
 
     <title>Ricable</title>
@@ -12,40 +18,34 @@
     <header class="header">
       <div class="header_wrapper container">
         <div class="header_top">
-          <svg
-            width="186"
-            height="177"
-            viewBox="0 0 186 177"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M108.904 81.8333L101.908 71.5997H98.4324L107.428 83.736L100.956 91.4545C100.956 91.4545 101.798 91.2221 102.526 91.2776C103.253 91.3332 103.524 91.4545 103.524 91.4545L118.183 71.5997C118.183 71.5997 117.315 71.7925 116.918 71.7766C116.52 71.7585 115.945 71.5997 115.945 71.5997L108.904 81.8333ZM87.1183 76.073C86.8327 71.6553 81.264 71.5997 81.264 71.5997H71.7457V91.4545H74.4109V81.7789H76.0764L85.2618 91.4545C85.2618 91.4545 86.1823 91.2992 86.7767 91.2776C87.3721 91.2549 88.8311 91.4545 88.8311 91.4545L79.8841 81.7233C87.7851 80.2118 87.1183 76.073 87.1183 76.073ZM74.4592 80.7152V72.6055H80.0279C80.0279 72.6055 84.0257 72.6633 84.264 76.242C84.264 76.242 84.6452 80.324 79.4093 80.8286L74.4592 80.7152ZM52.0897 81.8333L45.0938 71.5997H41.619L50.6143 83.736L44.1414 91.4545C44.1414 91.4545 44.8024 91.2992 45.529 91.2776C46.2556 91.2561 46.711 91.4545 46.711 91.4545L61.3696 71.5997C61.3696 71.5997 60.4674 71.7925 60.0708 71.7766C59.6742 71.7585 59.1319 71.5997 59.1319 71.5997L52.0897 81.8333ZM27.8173 71.5997L17.0137 87.1468L7.01974 71.6542C6.63859 71.0407 6.30568 71.6542 6.30568 71.6542L2.73633 91.662C2.73633 91.662 3.29986 91.4851 3.75821 91.5248C4.21753 91.5645 4.64018 91.5645 4.64018 91.5645L6.5913 76.7443C6.68683 75.6263 7.11527 76.242 7.11527 76.242L16.1578 91.1177L26.009 76.6343C26.4374 76.1297 26.4847 76.8577 26.4847 76.8577L28.2458 91.3989C28.2458 91.3989 29.0708 91.2663 29.6662 91.2221C30.2606 91.1778 31.2921 91.3989 31.2921 91.3989L28.4841 72.1021C28.3886 71.0963 27.8173 71.5997 27.8173 71.5997ZM136.234 72.0465L125.669 91.4534L126.703 91.2765L127.619 91.4534L131.238 83.9594H140.661L144.182 91.4534C144.182 91.4534 144.713 91.3321 145.572 91.2538C146.298 91.1869 147.466 91.4534 147.466 91.4534L137.423 72.1021C137.276 71.4115 136.567 71.1518 136.234 72.0465ZM131.95 82.7858L135.95 75.2918L139.947 82.7291L131.95 82.7858ZM183.256 80.9386C182.446 72.4388 173.784 71.5997 173.784 71.5997H161.078V91.4545H172.12C184.018 90.2775 183.256 80.9386 183.256 80.9386ZM172.357 90.502L163.98 90.2786V72.7178H171.549C171.549 72.7178 179.924 72.6044 180.114 80.8831C180.114 80.8831 180.591 89.5518 172.357 90.502ZM166.551 63.8291C97.4462 18.5044 22.6307 60.9274 22.6307 60.9274C109.441 28.9999 146.563 63.8291 146.563 63.8291H166.551Z"
-              fill="currentColor"
+          <a href="">
+            <img
+              width="250"
+              height="52"
+              src="./img/top-logo.webp"
+              alt="Ricable"
             />
-          </svg>
+          </a>
 
           <nav class="navigation">
             <ul>
               <li>
-                <a href="#about">О бренде</a>
+                <a href="#about">Главная</a>
               </li>
               <li>
-                <a href="#products">Наши продукты</a>
+                <a href="#products">Серии</a>
               </li>
               <li>
-                <a href="#reviews">Обзоры</a>
+                <a href="#reviews">Где купить</a>
               </li>
               <li>
-                <a href="#buy">Где купить</a>
-              </li>
-              <li>
-                <a href="#contacts">Контакты</a>
+                <a href="#buy">Блог</a>
               </li>
             </ul>
           </nav>
+
+          <a href="#">info@tl-sound.ru</a>
+
           <div class="burger-menu">
             <button class="burger-btn" id="burgerBtn">
               <span class="icon-open">☰</span>
@@ -55,497 +55,84 @@
               <nav class="menu">
                 <ul>
                   <li>
-                    <a class="menu_link" href="#about">О бренде</a>
+                    <a class="menu_link" href="#about">Главная</a>
                   </li>
                   <li>
-                    <a class="menu_link" href="#products">Наши продукты</a>
+                    <a class="menu_link" href="#products">Серии</a>
                   </li>
                   <li>
-                    <a class="menu_link" href="#reviews">Обзоры</a>
+                    <a class="menu_link" href="#reviews">Где купить</a>
                   </li>
                   <li>
-                    <a class="menu_link" href="#buy">Где купить</a>
-                  </li>
-                  <li>
-                    <a class="menu_link" href="#contacts">Контакты</a>
+                    <a class="menu_link" href="#buy">Блог</a>
                   </li>
                 </ul>
               </nav>
             </div>
           </div>
         </div>
-
-        <article class="info">
-          <h1 class="info_main-title">MYRYAD начинается с потрясающего</h1>
-          <p class="info_description">Настоящий английский звук с 1995 года</p>
-        </article>
       </div>
     </header>
 
     <main>
+      <article class="info">
+        <img class="info__bg" src="./img/bg.jpg" alt="" />
+      </article>
       <section class="container">
-        <article id="about" class="about">
-          <h2 class="about_title">О бренде</h2>
-          <p class="about_text">
-            Компания Myryad была основана в 1995 году двумя братьями – Крисом и
-            Дэйвом Эвансами и их женами Сью и Линн в городе Уотерлувилл,
-            графство Гэмпшир, на южном побережье Англии. Myryad Systems, Ltd. за
-            свою почти 30–летнюю историю получила несметное количество наград от
-            самых авторитетных журналов и встала в один ряд с брендами,
-            завоевавшими статус эталонов английского звука.
-          </p>
-          <div class="description-container">
-            <div class="description-text" id="text">
-              <p class="about_text">
-                Крис Эванс – Технический директор – еще в 1976 году основал
-                Arcam (тогда A&R Cambridge), с 1986 года работал Директором по
-                технологиям в компании NAD.
-              </p>
-              <p class="about_text">
-                Дэвид Эванс – Директор производства, так же долгое время был
-                одним из руководителей производства NAD, специализировался в
-                области цифровых технологий.
-              </p>
-              <p class="about_text">
-                В декабре 1998 г. к ним присоединяется инженер Крис Шорт. Прежде
-                чем присоединиться к Myryad, Крис руководил основанной им
-                компанией Mordaunt Short, а в последствии был председателем
-                правления Tannoy. Под его руководством компания превратилась в
-                лидеры отрасли и была награждена королевской премией, высшей
-                наградой, которую присуждает правительство Великобритании –
-                Queen's Award for Export Achievements.
-              </p>
-              <p class="about_text">
-                Первенец компании – интегральный усилитель MI 120 сразу добился
-                всеобщего признания и успеха. В своем первом обзоре в известном
-                издании 'What Hi–Fi?', усилитель MI120 получил 5 звезд с
-                заголовком «MYRYAD начинается с потрясающего!». В дальнейшем,
-                техника под этим брендом становилась неоднократным призером
-                тестов самых влиятельных мировых изданий, а многие известные
-                звукозаписывающие компании применяют усилители компании Myryad в
-                своих референсных системах. Более того, на выставке CES 2000,
-                Dolby Laboratories выбрала оборудование Myryad для демонстрации
-                возможностей формата DVD-Audio.
-              </p>
-              <p class="about_text">
-                Техника под этим брендом становилась неоднократным призером
-                тестов самых влиятельных мировых изданий, а многие известные
-                звукозаписывающие компании применяют усилители компании Myryad в
-                своих референсных системах.
-              </p>
-              <p class="about_text">
-                В декабре 2004 года Myryad стала частью семейства Armour Home
-                Electronics.
-              </p>
-              <p class="about_text">
-                Обновленная команда менеджмента вывела компанию из финансового
-                кризиса, сохранив всё лучшее и оптимизировав затраты на
-                производство. Сейчас у Myryad Systems две штаб-квартиры — в
-                Бишопс-Стортфорд и в Гуанчжоу. Разработанная в Англии продукция
-                выпускается в Китае на высокотехнологичном производстве Shanling
-                с применением самых современных технологий и методов контроля
-                качества.
-              </p>
-              <p class="about_text">
-                На протяжении многих лет, техника Myryad Systems сохраняла
-                фирменный почерк: прекрасное звучание, простоту управления,
-                удивительную надежность и великолепный дизайн – вот почему эта
-                продукция пользуется спросом во всем мире.
-              </p>
-            </div>
-            <button class="toggle-button">
-              <span class="toggle-button_text"> Подробнее </span>
-              <img src="./img/arrow.svg" alt="" />
-            </button>
-          </div>
-        </article>
-
-        <article id="products" class="products">
-          <div class="title-lines">
-            <hr class="title-lines_line" />
-            <h2 class="title-lines_text products_title">Наши продукты</h2>
-            <hr class="title-lines_line" />
-          </div>
-          <p class="products_description--bold">
-            Классический лаконичный дизайн: ничего лишнего – только звук
-          </p>
-          <p class="products_description">
-            С каждым поколением техника Myryad становится сложнее и
-            универсальнее, но главный принцип компании – максимум
-            потребительских свойств за разумную цену – не изменяется. А стиль в
-            духе минимализма – как дань традициям и отсылка к истокам.
-          </p>
-
-          <div class="products_list">
-            <div class="products_item">
-              <img class="products_img" src="./img/Z310-BLK.webp" alt="Z310" />
-
-              <div class="products_name">
-                <h3>Z310</h3>
-                <button class="toggle-button-product">
-                  <span class="toggle-button-product_text"> Подробнее </span>
-                  <img
-                    class="toggle-button-product_arrow"
-                    src="./img/arrow.svg"
-                    alt=""
-                  />
-                </button>
+        <article class="advantages">
+          <ul class="advantages__list">
+            <li class="advantages__item advantages__item--big">
+              <div class="advantages__container">
+                <h3>RICABLE</h3>
+                <p class="advantages__main-text">
+                  итальянский бренд, создающий высококачественные аудиокабели
+                  для истинных ценителей музыки
+                </p>
               </div>
-
-              <p class="products_text products_hidden-text">
-                CD плеер с медиапроигрывателем и функцией ЦАП USB audio,
-                Bluetooth 5.0 (LDAC / AAC / SBC) Цифровые USB-входы, цифровые
-                выходы, аналоговые балансные и небалансные выходы
-              </p>
-
-              <div class="description-container">
-                <div class="description-text" id="text">
-                  <p class="products_text">
-                    При производстве данной модели использовались аудиофильские
-                    комплектующие: ЦАП — ESS ES9219C, конденсаторы Nichicon.
-                  </p>
-                  <p class="products_text">
-                    Плеер имеет аналоговые XLR и классические RCA выходы,
-                    обеспечен цифровыми выходами – оптическим и коаксиальным, а
-                    для воспроизведения контента через USB – можно использовать
-                    встроенный ЦАП с характеристиками 32бит/768кГц и DSD512.
-                    Функция USB-DAC через USB type B или USB type A – для
-                    подключения флеш–накопителя.
-                  </p>
-                  <p class="products_text">
-                    Плеер оборудован Bluetooth 5.0 для передачи HiRes Audio без
-                    потерь, большим цветным сенсорным экраном для удобства
-                    управления и выходом для наушников на передней панеле.
-                  </p>
-                  <p class="products_text">
-                    Доступно в черном и серебристом цветах.
-                  </p>
-                  <p class="products_item-title">
-                    <span>Технические характеристики</span>
-                  </p>
-                  <div class="divTable">
-                    <div class="divTableBody">
-                      <div class="divTableRow">
-                        <div class="divTableCell">
-                          Поддерживаемые форматы дисков
-                        </div>
-                        <div class="divTableCell divTableCell--right">
-                          CD, CD-R, CD-RW
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">
-                          Коэффициент гармонических искажений
-                        </div>
-                        <div class="divTableCell divTableCell--right">
-                          0.001% (1кГЦ)
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">Отношение сигнал/шум</div>
-                        <div class="divTableCell divTableCell--right">
-                          >116 дБА
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">Разделение каналов</div>
-                        <div class="divTableCell divTableCell--right">
-                          115 дБ
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">
-                          Выходной уровень при 0 дБ
-                        </div>
-                        <div class="divTableCell divTableCell--right">
-                          2.3 В (RMS)
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">Габариты (ШxВxГ)</div>
-                        <div class="divTableCell divTableCell--right">
-                          436×95×348 мм
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">Вес (нетто)</div>
-                        <div class="divTableCell divTableCell--right">
-                          6.8 кг
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <img
+                class="advantages__big-img"
+                src="./img/advantage-1.png"
+                alt=""
+              />
+              <div class="advantages__container">
+                <p class="advantages__text">
+                  Наш главный приоритет — ставить клиента в центр всего. Мы
+                  делаем это с помощью множества преимуществ и гарантий, которые
+                  Ricable всегда предлагала
+                </p>
               </div>
-            </div>
-
-            <div class="products_item">
-              <img class="products_img" src="./img/Z350-BLK.webp" alt="Z350" />
-
-              <div class="products_name">
-                <h3>Z350</h3>
-                <button class="toggle-button-product">
-                  <span class="toggle-button-product_text"> Подробнее </span>
-                  <img
-                    class="toggle-button-product_arrow"
-                    src="./img/arrow.svg"
-                    alt=""
-                  />
-                </button>
-              </div>
-
-              <p class="products_text products_hidden-text">
-                Интегральный усилитель с медиапроигрывателем и функцией ЦАП
-                Усилитель Dual Mono, DAC, USB audio, Bluetooth 5.0 (LDAC / AAC /
-                SBC) Балансные и небалансные входы
-              </p>
-
-              <div class="description-container">
-                <div class="description-text" id="text">
-                  <p class="products_text">
-                    Фирменная схемотехника и отборные компоненты обеспечивают
-                    исключительно точное и деликатное звучание. Два
-                    трансформатора для реализации бескомпромиссного принципа
-                    усиления "двойное моно" с легкостью выдают 200 Вт на
-                    нагрузку 4 Ома. Такой запас мощности позволяет уверенно
-                    работать даже с "тяжелой" многополосной акустикой со сложным
-                    характером импеданса и низкой чувствительностью.
-                  </p>
-                  <p class="products_text">
-                    При производстве используются аудиофильские комплектующие:
-                    ЦАП — ESS ES9219C, для работы с PCM/DSD (DSD - через USB),
-                    удобный Bluetooth 5.0 для передачи HiRes Audio без потерь,
-                    конденсаторы Vishay, Nichicon и плёночные Wima.
-                  </p>
-                  <p class="products_text">
-                    Доступно в черном и серебристом цветах.
-                  </p>
-
-                  <p class="products_item-title">
-                    <span>Технические характеристики</span>
-                  </p>
-
-                  <div class="divTable">
-                    <div class="divTableBody">
-                      <div class="divTableRow">
-                        <div class="divTableCell">Выходная мощность, 4 Ом</div>
-                        <div class="divTableCell divTableCell--right">
-                          200 Вт
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">Выходная мощность, 8 Ом</div>
-                        <div class="divTableCell divTableCell--right">
-                          130 Вт
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">
-                          Коэффициент гармонических искажений
-                        </div>
-                        <div class="divTableCell divTableCell--right">
-                          0.01%
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">Отношение сигнал/шум</div>
-                        <div class="divTableCell divTableCell--right">
-                          >97 дБА
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">Входной импеданс</div>
-                        <div class="divTableCell divTableCell--right">
-                          47 кОм
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">Габариты (ШxВxГ)</div>
-                        <div class="divTableCell divTableCell--right">
-                          436×115×377 мм
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">Вес (нетто)</div>
-                        <div class="divTableCell divTableCell--right">
-                          12.3 кг
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="products_item products_item--full-width">
-              <img class="products_img" src="./img/Z310-BLK.webp" alt="Z310" />
-
-              <div class="products_name">
-                <h3>Z310</h3>
-                <button class="toggle-button-product">
-                  <span class="toggle-button-product_text"> Подробнее </span>
-                  <img
-                    class="toggle-button-product_arrow"
-                    src="./img/arrow.svg"
-                    alt=""
-                  />
-                </button>
-              </div>
-
-              <p class="products_text products_hidden-text">
-                CD плеер с медиапроигрывателем и функцией ЦАП USB audio,
-                Bluetooth 5.0 (LDAC / AAC / SBC) Цифровые USB-входы, цифровые
-                выходы, аналоговые балансные и небалансные выходы
-              </p>
-
-              <div class="description-container">
-                <div class="description-text" id="text">
-                  <p class="products_text">
-                    При производстве данной модели использовались аудиофильские
-                    комплектующие: ЦАП — ESS ES9219C, конденсаторы Nichicon.
-                  </p>
-                  <p class="products_text">
-                    Плеер имеет аналоговые XLR и классические RCA выходы,
-                    обеспечен цифровыми выходами – оптическим и коаксиальным, а
-                    для воспроизведения контента через USB – можно использовать
-                    встроенный ЦАП с характеристиками 32бит/768кГц и DSD512.
-                    Функция USB-DAC через USB type B или USB type A – для
-                    подключения флеш–накопителя.
-                  </p>
-                  <p class="products_text">
-                    Плеер оборудован Bluetooth 5.0 для передачи HiRes Audio без
-                    потерь, большим цветным сенсорным экраном для удобства
-                    управления и выходом для наушников на передней панеле.
-                  </p>
-                  <p class="products_text">
-                    Доступно в черном и серебристом цветах.
-                  </p>
-                  <p class="products_item-title">
-                    <span>Технические характеристики</span>
-                  </p>
-                  <div class="divTable">
-                    <div class="divTableBody">
-                      <div class="divTableRow">
-                        <div class="divTableCell">
-                          Поддерживаемые форматы дисков
-                        </div>
-                        <div class="divTableCell divTableCell--right">
-                          CD, CD-R, CD-RW
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">
-                          Коэффициент гармонических искажений
-                        </div>
-                        <div class="divTableCell divTableCell--right">
-                          0.001% (1кГЦ)
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">Отношение сигнал/шум</div>
-                        <div class="divTableCell divTableCell--right">
-                          >116 дБА
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">Разделение каналов</div>
-                        <div class="divTableCell divTableCell--right">
-                          115 дБ
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">
-                          Выходной уровень при 0 дБ
-                        </div>
-                        <div class="divTableCell divTableCell--right">
-                          2.3 В (RMS)
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">Габариты (ШxВxГ)</div>
-                        <div class="divTableCell divTableCell--right">
-                          436×95×348 мм
-                        </div>
-                      </div>
-                      <div class="divTableRow">
-                        <div class="divTableCell">Вес (нетто)</div>
-                        <div class="divTableCell divTableCell--right">
-                          6.8 кг
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <article id="reviews" class="reviews">
-          <div class="title-lines">
-            <hr class="title-lines_line" />
-            <h2 class="title-lines_text">Обзоры</h2>
-            <hr class="title-lines_line" />
-          </div>
-
-          <ul class="reviews_list">
-            <li class="reviews_item">
-              <iframe
-                allowfullscreen
-                allow="fullscreen; gyroscope; encrypted-media"
-                src="https://dzen.ru/embed/vHAy_eekI6R0?from_block=partner&from=zen&mute=0&autoplay=0&tv=0"
-              >
-              </iframe>
             </li>
-            <li class="reviews_item">
-              <iframe
-                allowfullscreen
-                allow="fullscreen; gyroscope; encrypted-media"
-                src="https://dzen.ru/embed/vtJZFzdC6VWM?from_block=partner&from=zen&mute=0&autoplay=0&tv=0"
-              >
-              </iframe>
+            <li class="advantages__item">
+              <img
+                class="advantages__img"
+                class="advantages__img"
+                src="./img/advantage-2.png"
+                alt=""
+              />
+              <div class="advantages__container">
+                <p class="advantages__small-text">
+                  Мы вручную собираем наши кабели из лучших материалов, чтобы вы
+                  могли услышать каждую ноту, каждую деталь и каждое мгновение с
+                  максимальной чистотой и выразительностью
+                </p>
+              </div>
             </li>
-            <li class="reviews_item">
-              <iframe
-                allowfullscreen
-                allow="fullscreen; gyroscope; encrypted-media"
-                src="https://dzen.ru/embed/vPBmyuUYGdlE?from_block=partner&from=zen&mute=0&autoplay=0&tv=0"
-              >
-              </iframe>
-            </li>
-            <li class="reviews_item">
-              <iframe
-                allowfullscreen
-                allow="fullscreen; gyroscope; encrypted-media"
-                src="https://dzen.ru/embed/vlIPTG7ptCTI?from_block=partner&from=zen&mute=0&autoplay=0&tv=0"
-              >
-              </iframe>
+            <li class="advantages__item">
+              <img
+                class="advantages__img"
+                class="advantages__img"
+                src="./img/advantage-3.png"
+                alt=""
+              />
+              <div class="advantages__container">
+                <p class="advantages__small-text">
+                  Серии Invictus, Dedalus, Magnus и Primus призваны вернуть
+                  слушателю те же ощущения, которые художник хотел передать в
+                  своей работе при её создании.
+                </p>
+              </div>
             </li>
           </ul>
-        </article>
-
-        <article id="buy" class="map">
-          <div class="title-lines">
-            <hr class="title-lines_line" />
-            <h2 class="title-lines_text">Где купить</h2>
-            <hr class="title-lines_line" />
-          </div>
-          <p class="map_point">
-            <svg
-              width="23"
-              height="33"
-              viewBox="0 0 23 33"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M11.5 15.6799C10.411 15.6799 9.36599 15.24 8.59599 14.47C7.82599 13.69 7.39301 12.64 7.39301 11.55C7.39301 10.46 7.82599 9.40988 8.59599 8.62988C9.36599 7.85988 10.411 7.41992 11.5 7.41992C12.589 7.41992 13.634 7.85988 14.404 8.62988C15.174 9.40988 15.607 10.46 15.607 11.55C15.607 12.09 15.501 12.6299 15.295 13.1299C15.088 13.6299 14.786 14.08 14.404 14.47C14.023 14.85 13.57 15.1501 13.072 15.3601C12.573 15.5701 12.039 15.6799 11.5 15.6799ZM11.5 0C8.45 0 5.525 1.21988 3.368 3.37988C1.212 5.54988 0 8.49005 0 11.55C0 20.21 11.5 33 11.5 33C11.5 33 23 20.21 23 11.55C23 8.49005 21.788 5.54988 19.632 3.37988C17.475 1.21988 14.55 0 11.5 0Z"
-                fill="white"
-              />
-            </svg>
-            Найти диллера на карте
-          </p>
-          <div class="map_frame" id="map"></div>
         </article>
       </section>
     </main>
