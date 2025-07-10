@@ -1,4 +1,15 @@
 document.addEventListener('DOMContentLoaded', function () {
+  const swiper = new Swiper('.swiper', {
+    slidesPerView: 1,
+    loop: true,
+    autoplay: {
+      delay: 1400,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
   const toggleButtons = document.querySelectorAll('.toggle-button');
 
   toggleButtons.forEach((button) => {
