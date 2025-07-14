@@ -77,4 +77,25 @@ document.addEventListener('DOMContentLoaded', function () {
       burgerBtn.classList.remove('active');
     }
   });
+
+  const modal = document.getElementById('policyModal');
+  const openBtn = document.querySelector('.footer_policyBtn');
+  const closeBtn = document.querySelector('.modal_close');
+
+  openBtn.addEventListener('click', () => {
+    modal.classList.add('show');
+    document.body.style.overflow = 'hidden';
+  });
+
+  closeBtn.addEventListener('click', () => {
+    modal.classList.remove('show');
+    document.body.style.overflow = '';
+  });
+
+  // Закрытие по клику вне модалки
+  window.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.classList.remove('show');
+    }
+  });
 });
