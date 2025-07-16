@@ -89,13 +89,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
   closeBtn.addEventListener('click', () => {
     modal.classList.remove('show');
-    document.body.style.overflow = '';
+    document.body.style.overflow = 'unset';
   });
 
-  // Закрытие по клику вне модалки
   window.addEventListener('click', (e) => {
     if (e.target === modal) {
       modal.classList.remove('show');
+      document.body.style.overflow = 'unset';
+    } else {
     }
   });
 });
