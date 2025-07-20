@@ -39,6 +39,7 @@ body {
   max-width: 1680px;
   margin: 0 auto;
   padding: 0 40px;
+  overflow-x: hidden;
 }
 
 @media (max-width: 1439px) {
@@ -1060,4 +1061,23 @@ img {
     font-size: 15px;
     font-weight: 600;
   }
+}
+
+.box {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.box:nth-of-type(odd) {
+  transform: translateX(-60px);
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(60px);
+}
+
+.box.show {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
 }
