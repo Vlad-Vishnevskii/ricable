@@ -121,4 +121,24 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
+
+  const select = document.querySelector('.series-select');
+  const toggle = document.querySelector('.series-select__toggle');
+
+  toggle.addEventListener('click', function (e) {
+    e.stopPropagation();
+    select.classList.toggle('open');
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!select.contains(e.target)) {
+      select.classList.remove('open');
+    }
+  });
+
+  document.querySelectorAll('.series-select__list a').forEach((item) => {
+    item.addEventListener('click', function () {
+      select.classList.remove('open');
+    });
+  });
 });
